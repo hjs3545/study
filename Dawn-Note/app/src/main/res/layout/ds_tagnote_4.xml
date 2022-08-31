@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:background="@color/white"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="600dp"
+            android:layout_height="75dp"
+            android:background="@drawable/tagnote_titlebar_linear"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize" android:id="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent" tools:layout_editor_absoluteX="1dp"
+            tools:ignore="MissingConstraints"
+            app:layout_collapseMode="pin"
+    />
+    <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp" android:id="@+id/ds_4_back"
+            android:background="@drawable/back"
+            style="?android:attr/borderlessButtonStyle"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="13dp" android:layout_marginLeft="13dp" android:layout_marginStart="13dp"/>
+    <TextView
+            android:text="자료구조 04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:textSize="30sp" android:textColor="@color/white"
+            android:fontFamily="@font/korean"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.498"/>
+    <FrameLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="75dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <TextView
+                    android:text="연결 구조"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView1"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="이진 검색은 순차 검색보다 훨씬 빠르다"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView2"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="실제 위치를 추적하기 위한 보조 인덱스 활용"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="데이터-주소 쌍의 단일 배열"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="Node 객체의 시이퀀스로 생각할 수 있음"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView5"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="연결 리스트에 대한 원소 삽입"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView6"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="연결 리스트에서의 삭제"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView7"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="delete() 메소드"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView8"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="중첩 클래스(static)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView9"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+            <TextView
+                    android:text="클래스 이름 앞에 static 예약어가 붙음"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView10"
+                    android:fontFamily="@font/korean"
+                    android:textSize="25sp" android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_1"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/tag_section"
+            />
+
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_2"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_3"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_4"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_5"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_6"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_7"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_8"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_9"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+            <Button
+                    android:layout_width="580dp"
+                    android:layout_height="49dp" android:id="@+id/ds_4_tag_10"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tag_section"
+            />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

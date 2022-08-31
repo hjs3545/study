@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="kr.ac.cnu.computer.dawnnote">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_moon_final"
+            android:label="@string/DawnNote"
+            android:roundIcon="@mipmap/ic_moon_final_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.DawnNote">
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".c_list"/>
+        <activity android:name=".c_note01"/>
+        <activity android:name=".c_note02"/>
+        <activity android:name=".c_note03"/>
+        <activity android:name=".c_tagnote_1"/>
+        <activity android:name=".c_tagnote_2"/>
+        <activity android:name=".c_tagnote_3"/>
+        <activity android:name=".data_structure01"/>
+        <activity android:name=".data_structure04"/>
+        <activity android:name=".data_structure05"/>
+        <activity android:name=".data_structure06"/>
+        <activity android:name=".ds_list"/>
+        <activity android:name=".ds_tagnote_4"/>
+        <activity android:name=".ds_tagnote_56"/>
+        <activity android:name=".ds_tagnote_78"/>
+        <activity android:name=".folder_list"/>
+        <activity android:name=".new_note"/>
+        <activity android:name=".probability01"/>
+        <activity android:name=".probability02"/>
+        <activity android:name=".probability03"/>
+        <activity android:name=".probability_list"/>
+        <activity android:name=".probability_tagnote_1"/>
+        <activity android:name=".probability_tagnote_2"/>
+        <activity android:name=".probability_tagnote_3"/>
+        <activity android:name=".search_00"/>
+        <activity android:name=".search_01_pointer"/>
+        <activity android:name=".tag_list"/>
+    </application>
+
+</manifest>

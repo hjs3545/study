@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:background="@color/white"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="600dp"
+            android:layout_height="75dp"
+            android:background="@drawable/tagnote_titlebar_linear"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize" android:id="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent" tools:layout_editor_absoluteX="1dp"
+            tools:ignore="MissingConstraints"
+            app:layout_collapseMode="pin"
+    />
+    <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp" android:id="@+id/probability_2_back"
+            android:background="@drawable/back"
+            style="?android:attr/borderlessButtonStyle"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="13dp" android:layout_marginLeft="13dp" android:layout_marginStart="13dp"/>
+    <TextView
+            android:text="확률 및 통계 02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView2"
+            android:textSize="30sp" android:textColor="@color/white"
+            android:fontFamily="@font/korean"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.498"/>
+    <ScrollView
+            android:layout_width="599dp"
+            android:layout_height="815dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:overScrollMode="never"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    >
+        <FrameLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <ImageView
+                    android:layout_width="599dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/probability_tagnote_2"
+                    android:adjustViewBounds="true"/>
+            <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="110dp" android:id="@+id/probability_2_tag_1"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="75dp" android:id="@+id/probability_2_tag_2"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="80dp" android:id="@+id/probability_2_tag_3"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="145dp" android:id="@+id/probability_2_tag_4"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="95dp" android:id="@+id/probability_2_tag_5"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="85dp" android:id="@+id/probability_2_tag_6"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="90dp" android:id="@+id/probability_2_tag_7"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+                <Button
+                        android:layout_width="580dp"
+                        android:layout_height="110dp" android:id="@+id/probability_2_tag_8"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/tag_section"
+                />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

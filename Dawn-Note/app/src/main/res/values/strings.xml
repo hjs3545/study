@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dawn Note</string>
+    <string name="Dawn">Dawn</string>
+    <string name="Note">Note</string>
+    <string name="DawnNote">DAWN NOTE</string>
+    <string name="Statistics">확률 및 통계</string>
+    <string name="CLanguage">C언어</string>
+    <string name="DataStructure">자료구조</string>
+    <string name="copyright">Copyright 2022.List.All rights reserved.</string>
+</resources>

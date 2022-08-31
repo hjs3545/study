@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main"
+        android:background="@drawable/main_background">
+
+    <TextView
+            android:text="@string/Dawn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView1"
+            android:fontFamily="@font/javatext"
+            android:textSize="70sp" android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.333"/>
+    <TextView
+            android:text="@string/Note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView2"
+            android:fontFamily="@font/javatext"
+            android:textSize="70sp" android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.482"/>
+    <TextView
+            android:text="@string/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            android:layout_gravity="center" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textColor="#FFFFFF" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.91"/>
+    <ImageView
+            android:layout_width="118dp"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/main_moon"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.183"
+            app:layout_constraintHorizontal_bias="0.498"/>
+
+    =======
+        tools:context=".MainActivity">
+>>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
+</androidx.constraintlayout.widget.ConstraintLayout>

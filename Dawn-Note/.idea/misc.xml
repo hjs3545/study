@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+<<<<<<< HEAD
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23981481481481481" />
+        <entry key="app/src/main/res/drawable/alpha.xml" value="0.1527777777777778" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.23981481481481481" />
+        <entry key="app/src/main/res/drawable/pink.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/drawable/pinkplus_resize.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/pinkplus_xml.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/round.xml" value="0.1527777777777778" />
+        <entry key="app/src/main/res/drawable/white.xml" value="0.32222222222222224" />
+        <entry key="app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="app/src/main/res/font/font_english.xml" value="0.9463738508682329" />
+        <entry key="app/src/main/res/font/font_korean.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_folderlist.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5078407720144753" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Users/LG/Documents/GitHub/Dawn-Note/app/src/main/res/layout/activity_main.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/LG/Documents/GitHub/Dawn-Note/app/src/main/res/layout/activity_probability.xml" value="0.6" />
+        <entry key="..\:/Users/LG/Documents/GitHub/Dawn-Note/app/src/main/res/layout/activity_probability02.xml" value="0.6" />
+        <entry key="..\:/Users/LG/Documents/GitHub/Dawn-Note/app/src/main/res/layout/activity_probability03.xml" value="0.6666666666666666" />
+>>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+<<<<<<< HEAD
+=======
+=======
+        <entry key="..\:/Users/choi2/Documents/Dawn-Note/app/src/main/res/drawable/tag_section.xml" value="0.286" />
+        <entry key="..\:/Users/choi2/Documents/Dawn-Note/app/src/main/res/layout/activity_main.xml" value="0.46484375" />
+        <entry key="..\:/Users/choi2/Documents/Dawn-Note/app/src/main/res/layout/search_00.xml" value="0.46484375" />
+        <entry key="..\:/Users/choi2/Documents/Dawn-Note/app/src/main/res/layout/search_01_pointer.xml" value="0.46484375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+>>>>>>> 6063634a501de9df1d226d0ea30394562ea911b6
+>>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
