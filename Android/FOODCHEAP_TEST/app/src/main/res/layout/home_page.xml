@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+    <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp" app:srcCompat="@drawable/user_info" android:id="@+id/imageButton"/>
+    <androidx.appcompat.widget.SearchView
+            android:id="@+id/simpleSearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:queryHint="내 주변 가게 검색, 음식 검색"
+            android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginTop="80dp">
+    </androidx.appcompat.widget.SearchView>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation='horizontal'
+            android:layout_gravity="center_horizontal" android:weightSum="4" android:layout_marginTop="15dp">
+        <RadioButton
+                android:text="식료품"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/radioButton"/>
+        <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/radioButton2" android:text="패스트푸드"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/radioButton3" android:layout_weight="1"
+                android:text="일반음식점"/>
+        <RadioButton
+                android:text="편의점"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/radioButton4" android:layout_weight="1"/>
+    </RadioGroup>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageView"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
